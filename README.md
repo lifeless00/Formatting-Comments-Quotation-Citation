@@ -2,5 +2,4 @@ Formatting, Comments, Quotation, Citation taglarının kullanımı yer almaktad�
 Notlara direkt ulaşmak için sağ taraftan çalıştır!
 
 
-[[![Uploading image.png…]()
-](https://lifeless00.github.io/Formatting-Comments-Quotation-Citation/)](https://lifeless00.github.io/Formatting-Comments-Quotation-Citation/)
+İçeriği incele: https://lifeless00.github.io/Formatting-Comments-Quotation-Citation/
