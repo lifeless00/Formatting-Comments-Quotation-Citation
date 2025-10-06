@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000000;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.formatting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-right: 1px dashed rgba(255, 255, 255, 0.219);
+}
+
+.formatting h1 {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 5%;
+    min-height: 5%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1.5%;
+    margin-top: 3%;
+    background: rgba(255, 255, 255, 0.103);
+    border-radius: 0.2vw;
+}
+
+.icerikTanimVeOrnekler {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.103);
+    margin: 2%;
+    padding-bottom: 10px;
+}
+
+.icerikTanimVeOrnekler .baslik {
+    padding-left: 2%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1.5%;
+}
+
+.icerikTanimVeOrnekler .tanitim {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 2%;
+    opacity: 0.5;
+}
+
+.icerikTanimVeOrnekler .ornek .eskiHali h1 {
+    color: rgb(255, 1, 98);
+}
+
+.icerikTanimVeOrnekler .ornek .yeniHali h1 {
+    color: yellowgreen;
+}
+
+.icerikTanimVeOrnekler .ornek .eskiHali p,
+.yeniHali {
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1.5%;
+}
+
+
+.icerikTanimVeOrnekler .ornek img {
+    margin-top: 3%;
+    width: 60%;
+    height: 70%;
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    html,
+    body {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        height: auto;
+        overflow: visible;
+    }
+
+    .formatting {
+        width: 100%;
+        height: 100%;
+        overflow:visible;
+    }
+
+    .formatting h1 {
+        height: 30%;
+    }
+}
