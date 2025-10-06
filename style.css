@@ -73,10 +73,12 @@ body {
 
 .icerikTanimVeOrnekler .ornek .eskiHali h1 {
     color: rgb(255, 1, 98);
+    height: 7%;
 }
 
 .icerikTanimVeOrnekler .ornek .yeniHali h1 {
     color: yellowgreen;
+    height: 7%;
 }
 
 .icerikTanimVeOrnekler .ornek .eskiHali p,
@@ -115,4 +117,5 @@ body {
     .formatting h1 {
         height: 30%;
     }
+
 }
